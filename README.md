@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- <img src="./assets/icon.png" alt="logo" width="150" /> -->
+  <img src="./jet.png" alt="logo" width="150" />
   <br>
   <strong>JetGame</strong>
   <br><br>
