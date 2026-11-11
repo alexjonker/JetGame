@@ -232,6 +232,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChaseCamera
   target: {fileID: 0}
   offset: {x: 0, y: 5, z: -22}
-  lookAhead: 30
-  positionSharpness: 8
+  aimHeight: 2
   rotationSharpness: 6
