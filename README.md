@@ -3,7 +3,7 @@
   <br>
   <strong>JetGame</strong>
   <br><br>
-  A jet game made in unity 6000.3.26f1
+  A jet game made in unity 6.3 LTS (6000.3.28f1)
 </div>
 
 <!--
