@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2099631646}
   - component: {fileID: 2099631645}
   - component: {fileID: 2099631644}
+  - component: {fileID: 2099631650}
   m_Layer: 0
   m_Name: PlayerJet
   m_TagString: Untagged
@@ -208,6 +209,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ca5dbbddf9a24fd820adc7cd7281b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JetDebugHud
+--- !u!114 &2099631650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099631643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc3111447e743f792bf5eb120d9f565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftElevon: {fileID: 2680877517067596207}
+  rightElevon: {fileID: 1775661088310475583}
+  rudder: {fileID: 6610368978133581140}
+  nozzle: {fileID: 6861083913304079113}
+  elevonTravel: 0.3
+  rudderTravel: 0.3
+  nozzleWidth: {x: 1.2, y: 0.85}
+  sharpness: 10
 --- !u!1001 &247350461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -280,5 +301,25 @@ PrefabInstance:
 --- !u!4 &543450653452870486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 054144bef50502268bf8635e06693415, type: 3}
+  m_PrefabInstance: {fileID: 247350461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1775661088310475583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7447710948640096382, guid: 054144bef50502268bf8635e06693415, type: 3}
+  m_PrefabInstance: {fileID: 247350461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2680877517067596207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2680877516974683410, guid: 054144bef50502268bf8635e06693415, type: 3}
+  m_PrefabInstance: {fileID: 247350461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6610368978133581140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610368978157550057, guid: 054144bef50502268bf8635e06693415, type: 3}
+  m_PrefabInstance: {fileID: 247350461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6861083913304079113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2362288123391721548, guid: 054144bef50502268bf8635e06693415, type: 3}
   m_PrefabInstance: {fileID: 247350461}
   m_PrefabAsset: {fileID: 0}
